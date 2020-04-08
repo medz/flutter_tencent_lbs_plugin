@@ -12,7 +12,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  String _platformVersion = 'Unknown';
+  var _demo;
 
   @override
   void initState() {
@@ -22,12 +22,15 @@ class _MyAppState extends State<MyApp> {
 
   // Platform messages are asynchronous, so we initialize in an async method.
   Future<void> initPlatformState() async {
-    String platformVersion;
+    var demo;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
-      platformVersion = await FlutterTencentLbsPlugin.platformVersion;
+      await FlutterTencentLbsPlugin.setApiKey('3NEBZ-W7UCP-FIBD4-VM2FU-DKBPF-7GBHD');
+      demo = await FlutterTencentLbsPlugin.requestLocation();
+      print('-----------------');
     } on PlatformException {
-      platformVersion = 'Failed to get platform version.';
+      print('=============');
+      // platformVersion = 'Failed to get platform version.';
     }
 
     // If the widget was removed from the tree while the asynchronous platform
@@ -36,7 +39,7 @@ class _MyAppState extends State<MyApp> {
     if (!mounted) return;
 
     setState(() {
-      _platformVersion = platformVersion;
+      _demo = demo;
     });
   }
 
@@ -48,7 +51,7 @@ class _MyAppState extends State<MyApp> {
           title: const Text('Plugin example app'),
         ),
         body: Center(
-          child: Text('Running on: $_platformVersion\n'),
+          child: Text(_demo.toString()),
         ),
       ),
     );

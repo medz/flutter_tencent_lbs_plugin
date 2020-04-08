@@ -11,7 +11,7 @@ import io.flutter.plugin.common.PluginRegistry.Registrar
 /** FlutterTencentLbsPlugin */
 public class FlutterTencentLbsPlugin: FlutterPlugin, MethodCallHandler {
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-    val channel = MethodChannel(flutterPluginBinding.getFlutterEngine().getDartExecutor(), "flutter_tencent_lbs_plugin")
+    val channel = MethodChannel(flutterPluginBinding.getFlutterEngine().getDartExecutor(), channelName)
     channel.setMethodCallHandler(FlutterTencentLbsPlugin());
   }
 

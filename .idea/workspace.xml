@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="906bdf2c-d908-4719-9d15-690f7ddfb90d" name="Default Changelist" comment="" />
+    <list default="true" id="906bdf2c-d908-4719-9d15-690f7ddfb90d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_tencent_lbs_plugin/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_tencent_lbs_plugin/ios/Classes/Constants.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Classes/Constants.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/bytegem/flutter_plugin/flutter_tencent_lbs_plugin/FlutterTencentLbsPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/bytegem/flutter_plugin/flutter_tencent_lbs_plugin/FlutterTencentLbsPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_tencent_lbs_plugin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_tencent_lbs_plugin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_tencent_lbs_plugin/android/src/main/kotlin/com/bytegem/flutter_plugin/flutter_tencent_lbs_plugin/FlutterTencentLbsPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_tencent_lbs_plugin/android/src/main/kotlin/com/bytegem/flutter_plugin/flutter_tencent_lbs_plugin/FlutterTencentLbsPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_tencent_lbs_plugin/example/ios/Podfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_tencent_lbs_plugin/flutter_tencent_lbs_plugin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_tencent_lbs_plugin/flutter_tencent_lbs_plugin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_tencent_lbs_plugin/ios/Classes/SwiftFlutterTencentLbsPlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_tencent_lbs_plugin/ios/Classes/SwiftFlutterTencentLbsPlugin.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_tencent_lbs_plugin/ios/flutter_tencent_lbs_plugin.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_tencent_lbs_plugin/ios/flutter_tencent_lbs_plugin.podspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_tencent_lbs_plugin/lib/flutter_tencent_lbs_plugin.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_tencent_lbs_plugin/lib/flutter_tencent_lbs_plugin.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Podfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_tencent_lbs_plugin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_tencent_lbs_plugin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/SwiftFlutterTencentLbsPlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/SwiftFlutterTencentLbsPlugin.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/flutter_tencent_lbs_plugin.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/ios/flutter_tencent_lbs_plugin.podspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/flutter_tencent_lbs_plugin.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_tencent_lbs_plugin.dart" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,9 +29,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="XPUDU16C08014500" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aAMhSnIXEWnDaYOP8rDcQRlAfk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -39,5 +65,16 @@
       <updated>1586174063708</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
